@@ -1,6 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import WithSpeechBubbles from "./pages/Testimonials";
 import GridListWithHeading from "./pages/GridList";
+import Footer from "./pages/Footer";
 import Main from "./pages/Main";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Main></Main>
       <WithSpeechBubbles></WithSpeechBubbles>
       <GridListWithHeading></GridListWithHeading>
+      <Footer></Footer>
     </ChakraProvider>
   );
 }
