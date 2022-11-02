@@ -12,6 +12,7 @@ import {
   createIcon,
   useColorModeValue,
 } from "@chakra-ui/react";
+import Molecules from "./Molecules";
 
 export default function CallToActionWithVideo() {
   return (
@@ -80,7 +81,8 @@ export default function CallToActionWithVideo() {
             </Button>
           </Stack>
         </Stack>
-        <Flex
+        <Molecules />
+        {/* <Flex
           flex={1}
           justify={"center"}
           align={"center"}
@@ -127,7 +129,7 @@ export default function CallToActionWithVideo() {
               }
             />
           </Box>
-        </Flex>
+        </Flex> */}
       </Stack>
     </Container>
   );
